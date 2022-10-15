@@ -7,7 +7,7 @@ body {
     margin: 0 auto;
 }
 
-.header, .introduction, .intro-left {
+.header, .introduction {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,8 +86,6 @@ ul {
 
 .intro-right {
     width: 50%;
-    height: 400px;
-    /* background-color: rgb(67, 67, 83); */
     background-color: #e89b88;
     border-radius: 10px;
 }
@@ -104,14 +102,13 @@ h2 {
 }
 
 .intro-right p {
-    margin: 0;
+    color: rgb(255, 255, 255);
     font-size: 22px;
+    font-weight: normal;
+    text-indent: 32px;
     line-height: 1.5;
     padding-left: 15px;
     padding-right: 15px;
-    text-indent: 32px;
-    color: rgb(255, 255, 255);
-    font-weight: normal;
     font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック";
 }
 
