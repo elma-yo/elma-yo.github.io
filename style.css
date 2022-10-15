@@ -1,0 +1,160 @@
+html {
+    background-color: rgb(232, 202, 194);
+}
+
+body {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.header, .introduction, .intro-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header, .footer {
+    background-color: #eb6165;
+    /* background-color: rgb(48, 48, 61); */
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.header-left, ul#menu-list, .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img#logo {
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a#h1 {
+    font-size: 38px;
+    color: #ffffff;
+    font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック";
+}
+
+a#menu-a {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(232, 181, 171);
+    border: 5px solid white;
+    border-radius: 25px;
+    font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック";
+}
+
+a#menu-a:hover {
+    background-color: #f6676c;
+    border: 5px solid white;
+}
+
+ul {
+    list-style: none;
+}
+
+.content img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.introduction {
+    margin-top: 10px;
+}
+
+.intro-left {
+    width: 50%;
+}
+
+.intro-left iframe {
+    width: 95%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.intro-right {
+    width: 50%;
+    height: 400px;
+    /* background-color: rgb(67, 67, 83); */
+    background-color: #e89b88;
+    border-radius: 10px;
+}
+
+h2 {
+    display: inline-block;
+    color: #f1d763;
+    background-color: rgb(215, 95, 95);
+    font-size: 28px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 15px;
+    font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック";
+}
+
+.intro-right p {
+    margin: 0;
+    font-size: 22px;
+    line-height: 1.5;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-indent: 32px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック";
+}
+
+.wheater-table {
+    background-color: #e89b88;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+thead {
+    background-color: #f3e8b0;
+    font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック";
+}
+
+tbody {
+    background-color: #fff;
+    opacity: 0.95;
+    font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック";
+}
+
+th {
+    padding: 5px;
+}
+
+tbody th#t-title {
+    background: #f3e8b0;
+}
+
+.footer p {
+    color: white;
+    font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック";
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.footer a {
+    color: white;
+    font-size: 20px;
+}
