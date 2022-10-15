@@ -72,22 +72,28 @@ ul {
 
 .introduction {
     margin-top: 10px;
+    background-color: #e89b88;
+    border-radius: 10px;
 }
 
 .intro-left {
     width: 50%;
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
 }
 
 .intro-left iframe {
-    width: 95%;
-    height: 400px;
     border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 10px;
+    width: 97%;
+    height: 60%;
 }
 
 .intro-right {
     width: 50%;
-    background-color: #e89b88;
-    border-radius: 10px;
 }
 
 h2 {
